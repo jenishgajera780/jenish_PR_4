@@ -1,9 +1,37 @@
+/* Q7. write a program to print the below pattern using nested for loop.
+   output
+     * * * * *
+     *       *
+     * * * * *
+     *       *
+     *       *
+
+*/
+
+
 #include<stdio.h>
+#include<conio.h>
 
-int main (){
 
-int a;
-    printf("gdwfdwfd");
+void main(){
+int i;
 
-return 0;
+clrscr();
+
+for(i=1;i<=5;i++)
+{
+   
+if(i==1 || i==3)
+{
+   printf("* * * * *\n");
+  
+ }else{
+
+   printf("*       *\n");
+   }
+
+}
+
+getch();
+
 }
