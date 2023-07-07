@@ -1,3 +1,20 @@
+
+Q.6 Write a Program to print the below pattern using nested for loop.
+
+
+/*
+
+
+        5
+       454
+      34543l
+     33454321 
+    1234554321
+
+
+*/
+
+
 #include<stdio.h>
 #include<conio.h>
 
